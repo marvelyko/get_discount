@@ -1,0 +1,161 @@
+body{
+    margin: auto 40px;
+    height: 100%;
+    background: #f1f1f1;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px auto;
+    vertical-align: middle;
+}
+.get-disc-logo img{
+    height: 50px;
+}
+.donate{
+    padding: 14px;
+    border: none;
+    background-color: #FF8000;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.donate button{
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.howtowork{
+    color: #fff;
+    font-size: 20px;
+    padding: 14px;
+    border: none;
+    background-color: #FF8000;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.company-logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+.company-logos img{
+    width: 300px;
+    height: 190px;
+    margin-bottom: 20px;
+}
+.modal {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+  height: 100%;
+}
+.modalebay {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+  height: 100%;
+}
+.modalvendoo {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+  height: 100%;
+}
+.modalalibaba {
+  display: none;
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+  height: 100%;
+}
+.close {
+  color: #fff;
+  float: right;
+  font-size: 60px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.user-form{
+    background: #fff; 
+    width: 500px; 
+    margin: 70px auto;
+    
+}
+.filling-form div{
+    margin-bottom: 20px;
+}
+.label-input label{
+    display: block;
+    margin-bottom: 10px;
+}
+.label-input input{
+    display: block;
+    margin-bottom: 10px;
+}
+.form-banner-amazon{
+    width: 100%;
+    background-image: url("assets/images/Amazon-logo.jpg");
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+}
+.form-banner-ebay{
+    width: 100%;
+    background-image: url("assets/images/ebay-logo.jpg");
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+}
+.form-banner-vendoo{
+    width: 100%;
+    background-image: url("assets/images/vendoo-logo.png");
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+}
+.form-banner-alibaba{
+    width: 100%;
+    background-image: url("assets/images/alibaba-logo.jpg");
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+}
+.filling-form{
+    padding: 20px;
+}
+.label-input a{
+    color: red;
+}
